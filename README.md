@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+[Home](https://ra-coding-club.github.io/coding-club) | [Week 1](https://ra-coding-club.github.io/week-1/) | **[Week 2](https://ra-coding-club.github.io/week-2/)**
 
-You can use the [editor on GitHub](https://github.com/ra-coding-club/week-2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Do You Have Style?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**C**ascading **S**tyle **S**heets (CSS) are used to... style HTML.
 
-### Markdown
+There are three ways to use CSS with your webpage.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## In-line Styling
 
-```markdown
-Syntax highlighted code block
+Typical use of inline CSS:
 
-# Header 1
-## Header 2
-### Header 3
+```` HTML
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 style="color:red;">This heading will be red.</h1>
+  </body>
+</html>
+````
 
-- Bulleted
-- List
+## Internal Styling
 
-1. Numbered
-2. List
+Typical use of internal CSS:
 
-**Bold** and _Italic_ and `Code` text
+```` HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {color: red;}
+    </style>
+  </head>
+  <body>
+    <h1>This heading will be red.</h1>
+  </body>
+</html>
+````
 
-[Link](url) and ![Image](src)
-```
+## External Styling
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Typical use of external CSS:
 
-### Jekyll Themes
+```` HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>This heading will be red.</h1>
+  </body>
+</html>
+````
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ra-coding-club/week-2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+styles.css:
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```` CSS
+h1 {
+color: red;
+}
+````
