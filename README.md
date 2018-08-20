@@ -61,3 +61,11 @@ h1 {
 color: red;
 }
 ````
+
+# Google is Your Friend!
+
+Use the internet to your advantage - no coder can memorize every rule in any programming or markup language. Therefore many reference sites have been created just to help *you*, the awesome coder, out:
+
+* [Stack Overflow](https://stackoverflow.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+* [W3 Schools](https://www.w3schools.com/)
