@@ -69,3 +69,5 @@ Use the internet to your advantage - no coder can memorize every rule in any pro
 * [Stack Overflow](https://stackoverflow.com/)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 * [W3 Schools](https://www.w3schools.com/)
+
+**Copyright &copy; 2018 Riyaad Azad. Free to copy and distribute as per the [official license on GitHub](https://github.com/ra-coding-club/coding-club/blob/master/LICENSE). All other rights reserved.** 
